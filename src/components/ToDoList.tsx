@@ -8,11 +8,10 @@ function ToDoList() {
   const toDos = useRecoilValue(toDoSelector);
   return (
     <div>
-      <h1>To Dos</h1>
+      <h1>To Do List</h1>
       <hr />
       <CreateCategory />
       <CreateToDo />
-      <h2>To Do</h2>
       {toDos?.map((toDo) => (
         <ToDo key={toDo.id} {...toDo} />
       ))}

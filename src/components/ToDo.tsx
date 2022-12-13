@@ -36,7 +36,7 @@ function ToDo({ text, category, id }: IToDo) {
   return (
     <li>
       <span>{text}</span>
-      {Object.values(categories).map((current) =>
+      {categories.map((current) =>
         current !== category 
         ? <button key={current} name={current} onClick={onClick}>{current}</button> 
         : ""
