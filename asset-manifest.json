@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-masterclass/2/static/js/main.cb7a5d2c.js",
-    "index.html": "/react-masterclass/2/index.html",
-    "main.cb7a5d2c.js.map": "/react-masterclass/2/static/js/main.cb7a5d2c.js.map"
+    "main.js": "/react-masterclass-challenge-2/static/js/main.e951305f.js",
+    "index.html": "/react-masterclass-challenge-2/index.html",
+    "main.e951305f.js.map": "/react-masterclass-challenge-2/static/js/main.e951305f.js.map"
   },
   "entrypoints": [
-    "static/js/main.cb7a5d2c.js"
+    "static/js/main.e951305f.js"
   ]
 }
