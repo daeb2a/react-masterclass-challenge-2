@@ -1,6 +1,11 @@
 import React from "react";
+import styled from "styled-components";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import { IToDo, toDoState, categoriesState } from "../atoms";
+
+const Button = styled.button`
+  color: red;
+`;
 
 function ToDo({ text, category, id }: IToDo) {
   const setToDos = useSetRecoilState(toDoState);
@@ -36,9 +41,9 @@ function ToDo({ text, category, id }: IToDo) {
         ? <button key={current} name={current} onClick={onClick}>{current}</button> 
         : ""
       )}
-      <button name="remove" onClick={removeToDo}>
+      <Button name="remove" onClick={removeToDo}>
         삭제
-      </button>
+      </Button>
     </li>
   );
 }
